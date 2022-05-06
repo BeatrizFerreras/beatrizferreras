@@ -6,7 +6,7 @@
 }
 .hero{
 	width: 100%;
-	background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1));
+	background-color: black;
 	height: 100vh;
 	position: relative;
 	padding: 0 5%;
@@ -74,6 +74,13 @@ nav ul li a:hover{
 .menuicon{
 	width: 25px;
 	display: none;
+}
+.workimages{
+	margin-top: 100px;
+}
+.linkdimg{
+		width: 400px;
+	margin-left: 25px;
 }
 @media (min-aspect-ratio: 16/9){
 	.back-video{
