@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Beatriz Ferreras</title>
+	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<video autoplay loop muted plays-inline class="back-video"><source src="images/blue.mp4" type="video/mp4"></video>
+	<div class="hero">	
+		<nav>
+			<img src="images/Trans2.png" class="logo">
+			<ul id="menulist">
+				<li><a href="/index.html">Inicio</a></li>
+				<li><a href="/trabajos.html">Trabajos</a></li>
+				<li><a href="#">Sobre Mí</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+			<img src="images/menuicon.png" class="menuicon" onClick="togglemenu()">
+		</nav>
+		<div class="content">
+			<h1>BEATRIZ FERRERAS</h1>
+			<h2>DISEÑO & MARKETING</h2>
+		</div>
+	</div>
+	<script>
+		
+		var menulist = document.getElementById("menulist");
+		
+		menulist.style.maxHeight = "0px";
+		
+		function togglemenu(){
+			
+			if(menulist.style.maxHeight == "0px")
+				{
+					menulist.style.maxHeight = "155px"
+				}
+			else
+				{
+					menulist.style.maxHeight = "0px"					
+				}
+		}
+	
+	</script>
+</body>
+</html>
