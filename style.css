@@ -82,6 +82,9 @@ nav ul li a:hover{
 		width: 400px;
 	margin-left: 25px;
 }
+.art{
+	margin-top: 3800px;
+}
 @media (min-aspect-ratio: 16/9){
 	.back-video{
 		width: 100%;
