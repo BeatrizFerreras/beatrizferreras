@@ -77,6 +77,9 @@ nav ul li a:hover{
 }
 .workimages{
 	margin-top: 100px;
+	width: 100%;
+   	height: auto;
+  	max-width: 100%;
 }
 .linkdimg{
 		width: 400px;
